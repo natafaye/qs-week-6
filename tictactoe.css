@@ -1,0 +1,19 @@
+.board {
+    max-width: 300px;
+    display: grid; /* CSS Grid */
+    grid-template-columns: auto auto auto;
+    gap: 10px; /* If you are using flexbox or grid you can use gap */
+}
+
+.board div {
+    aspect-ratio: 1 / 1;
+    background-color: rgb(204, 201, 201);
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.turn-message {
+    font-size: 1.5rem;
+}
